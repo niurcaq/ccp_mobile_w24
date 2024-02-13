@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Recipes</title>
 </head>
 <body>
     <header>
-        <a href = "#recipes">Skip to Main Content</a>
+        <a href = "#recipes" class="skip">Skip to Main Content</a>
         <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "pets.html">Pets</a></li>
-                <li><a href = "recipes.html">Recipes</a></li>
-                <li><a href = "travel.html">Travel</a></li>
-            </ul>
+            <div class="nav-grid">
+                <div class="item"><a href = "index.html">Home</a></div>
+                <div class="item"><a href = "pets.html">Pets</a></div>
+                <div class="item"><a href = "recipes.html" class="on">Recipes</a></div>
+                <div class="item"><a href = "travel.html">Travel</a></div>
+            </div>
         </nav>
     </header>
 
-    <main id="recipes">
+    <main id="recipes" class="info">
         <h1>Recipes</h1>
 
         <div>

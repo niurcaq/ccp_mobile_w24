@@ -1,0 +1,137 @@
+.nav-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: green;
+    width: 99%;
+    padding: 10px;
+    top: 0;
+    z-index: 0;
+    /* top: 0; */
+    /* left: 0; */
+}
+
+.nav-grid a:link {
+    color: #004D40;
+    text-decoration: none;
+}
+
+.nav-grid a:hover {
+    text-decoration: black;
+}
+
+.nav-grid a:visited {
+    color: #1E88E5;
+    text-decoration: none;
+}
+
+.nav-grid a:active {
+    /* background-color: white; */
+    /* size: 50px; */
+    text-decoration: underline;
+}
+
+.nav-grid a.on {
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid green;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info {
+    /* margin-top: 80px; */
+    padding: 20px;
+    /* background-color: #4eff9e; */
+}
+
+.skip {
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    /* top: -80px;
+    left: -80px; */
+    width: 1px;
+    height: 1px;
+    display: block;
+    text-align: center;
+}
+
+.skip:focus {
+    position: relative;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    background-color: #333;
+    color: #fff;
+    size: 20px;
+    z-index: 1;
+    /* top: 110px; */
+    /* align-items: center;
+    display: block;
+    text-align: center;
+    position: fixed;
+    size: 20px;
+    color: black; */
+}
+
+
+.pets-con {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.i {
+    background-color: #A4C196;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid green;
+    /* padding: 20px; */
+}
+
+.center {
+    text-align: center;
+}
+
+.text-pet {
+    display: grid;
+    grid-template-columns: auto 72%;
+    /* grid-template-rows: 1fr 1 fr; */
+    /* grid-area: ; */
+    align-items: center;
+    align-content: center;
+}
+
+.text-pet-item {
+    background-color: #A4C196;
+    padding: 10px;
+    text-align: left;
+    /* align-content: left; */
+    /* align-items: left; */
+    border: 5px solid green;
+}
+
+.grid-travel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.travel-item {
+    background-color: #A4C196;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
